@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.12
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 1150,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "spike_01",
+      "type": "hidden_spike",
+      "x": 560,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 480
+      }
+    }
+  ],
+  "door": {
+    "x": 1060,
+    "y": 560
+  },
+  "level_width": 1300
+}

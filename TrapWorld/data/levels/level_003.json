@@ -1,0 +1,49 @@
+{
+  "id": 3,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.14
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 1050,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "spike_01",
+      "type": "hidden_spike",
+      "x": 300,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 240
+      }
+    },
+    {
+      "id": "door_01",
+      "type": "fake_door",
+      "x": 0,
+      "y": 0,
+      "shift": [
+        260,
+        0
+      ],
+      "trigger": {
+        "type": "player_x",
+        "value": 560
+      }
+    }
+  ],
+  "door": {
+    "x": 650,
+    "y": 560
+  },
+  "level_width": 1200
+}

@@ -1,0 +1,72 @@
+{
+  "id": 9,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.17
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 450,
+      "h": 60
+    },
+    {
+      "x": 620,
+      "y": 560,
+      "w": 680,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "w2",
+      "type": "moving_wall",
+      "x": 250,
+      "y": 560,
+      "travel": 220,
+      "speed": 480,
+      "trigger": {
+        "type": "player_x",
+        "value": 200
+      }
+    },
+    {
+      "id": "ffl2",
+      "type": "falling_floor",
+      "x": 450,
+      "w": 170,
+      "delay": 0.4,
+      "trigger": {}
+    },
+    {
+      "id": "sp2_800",
+      "type": "hidden_spike",
+      "x": 800,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 730
+      }
+    },
+    {
+      "id": "rc2_1000",
+      "type": "reverse_control",
+      "x": 1000,
+      "y": 520,
+      "duration": 1.6,
+      "trigger": {
+        "type": "trap_completed",
+        "target": "sp2_800"
+      }
+    }
+  ],
+  "door": {
+    "x": 1200,
+    "y": 560
+  },
+  "level_width": 1400
+}

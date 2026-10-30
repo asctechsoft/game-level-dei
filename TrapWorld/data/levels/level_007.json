@@ -1,0 +1,58 @@
+{
+  "id": 7,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.16
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 1300,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "rev1",
+      "type": "reverse_control",
+      "x": 400,
+      "y": 520,
+      "duration": 1.6,
+      "trigger": {
+        "type": "player_x",
+        "value": 350
+      }
+    },
+    {
+      "id": "sp2",
+      "type": "hidden_spike",
+      "x": 560,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 500
+      }
+    },
+    {
+      "id": "mw_850",
+      "type": "moving_wall",
+      "x": 850,
+      "y": 560,
+      "travel": 240,
+      "speed": 500,
+      "trigger": {
+        "type": "player_x",
+        "value": 780
+      }
+    }
+  ],
+  "door": {
+    "x": 1200,
+    "y": 560
+  },
+  "level_width": 1400
+}

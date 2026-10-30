@@ -1,0 +1,82 @@
+{
+  "id": 10,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.18
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 1450,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "s10",
+      "type": "hidden_spike",
+      "x": 350,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 280
+      }
+    },
+    {
+      "id": "fd10",
+      "type": "fake_door",
+      "x": 0,
+      "y": 0,
+      "shift": [
+        240,
+        0
+      ],
+      "trigger": {
+        "type": "trap_completed",
+        "target": "s10"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "falling_block",
+      "x": 900,
+      "y": 120,
+      "drop_distance": 416,
+      "trigger": {
+        "type": "player_x",
+        "value": 850
+      }
+    },
+    {
+      "id": "sp2_550",
+      "type": "hidden_spike",
+      "x": 550,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 480
+      }
+    },
+    {
+      "id": "mw_700",
+      "type": "moving_wall",
+      "x": 700,
+      "y": 560,
+      "travel": 140,
+      "speed": 460,
+      "trigger": {
+        "type": "trap_completed",
+        "target": "sp2_550"
+      }
+    }
+  ],
+  "door": {
+    "x": 1100,
+    "y": 560
+  },
+  "level_width": 1550
+}

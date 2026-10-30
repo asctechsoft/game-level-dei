@@ -1,0 +1,12 @@
+﻿# Godot
+.godot/
+
+# Builds
+builds/
+*.apk
+*.idsig
+*.aab
+
+# Local tooling
+.claude/
+

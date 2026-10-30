@@ -1,0 +1,58 @@
+{
+  "id": 5,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.16
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 1300,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "spikeA",
+      "type": "hidden_spike",
+      "x": 350,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 280
+      }
+    },
+    {
+      "id": "wallB",
+      "type": "moving_wall",
+      "x": 750,
+      "y": 560,
+      "travel": 260,
+      "speed": 520,
+      "trigger": {
+        "type": "trap_completed",
+        "target": "spikeA"
+      }
+    },
+    {
+      "id": "fb_1080",
+      "type": "falling_block",
+      "x": 1080,
+      "y": 120,
+      "drop_distance": 416,
+      "trigger": {
+        "type": "player_x",
+        "value": 1020
+      }
+    }
+  ],
+  "door": {
+    "x": 1200,
+    "y": 560
+  },
+  "level_width": 1400
+}

@@ -1,0 +1,84 @@
+{
+  "id": 19,
+  "spawn": [
+    100,
+    480
+  ],
+  "camera": {
+    "look_ahead": 0.26
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 560,
+      "w": 620,
+      "h": 60
+    },
+    {
+      "x": 790,
+      "y": 560,
+      "w": 1380,
+      "h": 60
+    }
+  ],
+  "traps": [
+    {
+      "id": "rv_320",
+      "type": "reverse_control",
+      "x": 320,
+      "y": 520,
+      "duration": 2,
+      "trigger": {
+        "type": "player_x",
+        "value": 260
+      }
+    },
+    {
+      "id": "fl_620",
+      "type": "falling_floor",
+      "x": 620,
+      "w": 170,
+      "delay": 0.4,
+      "trigger": {}
+    },
+    {
+      "id": "sp2_950",
+      "type": "hidden_spike",
+      "x": 950,
+      "y": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 880
+      }
+    },
+    {
+      "id": "fb_1300",
+      "type": "falling_block",
+      "x": 1300,
+      "y": 110,
+      "drop_distance": 430,
+      "speed": 950,
+      "trigger": {
+        "type": "trap_completed",
+        "target": "sp2_950"
+      }
+    },
+    {
+      "id": "mw2_1650",
+      "type": "moving_wall",
+      "x": 1650,
+      "y": 560,
+      "travel": 260,
+      "speed": 540,
+      "trigger": {
+        "type": "player_x",
+        "value": 1580
+      }
+    }
+  ],
+  "door": {
+    "x": 1950,
+    "y": 560
+  },
+  "level_width": 2320
+}

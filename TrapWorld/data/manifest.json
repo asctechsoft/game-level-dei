@@ -1,0 +1,104 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_001.json"
+    },
+    {
+      "id": 2,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_002.json"
+    },
+    {
+      "id": 3,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_003.json"
+    },
+    {
+      "id": 4,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_004.json"
+    },
+    {
+      "id": 5,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_005.json"
+    },
+    {
+      "id": 6,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_006.json"
+    },
+    {
+      "id": 7,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_007.json"
+    },
+    {
+      "id": 8,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_008.json"
+    },
+    {
+      "id": 9,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_009.json"
+    },
+    {
+      "id": 10,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_010.json"
+    },
+    {
+      "id": 11,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_011.json"
+    },
+    {
+      "id": 12,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_012.json"
+    },
+    {
+      "id": 13,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_013.json"
+    },
+    {
+      "id": 14,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_014.json"
+    },
+    {
+      "id": 15,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_015.json"
+    },
+    {
+      "id": 16,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_016.json"
+    },
+    {
+      "id": 17,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_017.json"
+    },
+    {
+      "id": 18,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_018.json"
+    },
+    {
+      "id": 19,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_019.json"
+    },
+    {
+      "id": 20,
+      "chapter": "Chapter 1 - Tutorial Hell",
+      "file": "level_020.json"
+    }
+  ]
+}
